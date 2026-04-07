@@ -28,7 +28,12 @@ export function TableControls({
 
   return (
     <div className="controls">
-      <h2>I am Serhii Popov from Upwork. I am using tanstack for it.</h2>
+      <h2>
+        I am Serhii Popov from Upwork. I made it for you. I am using tanstack for it. 
+        <br />
+        <b>This is for your Job - React Developer for Client-Side Dashboard with D3.js/Chart.js Data
+        Visualization on upwork.</b>
+      </h2>
       <h1>
         Virtualized Table - {Math.round(data.length / 1000).toLocaleString()}K
         Rows × {columns.length} Columns
